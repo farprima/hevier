@@ -1,110 +1,12 @@
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Workout</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
-  <div class="app">
-
-    <!-- Header -->
-    <header class="page-header">
-      <h1>Workout</h1>
-      <button class="icon-btn" aria-label="Pilih jenis workout">⌄</button>
-    </header>
-
-    <main class="content">
-
-      <!-- Start Empty Workout -->
-      <button class="start-empty-btn">
-        <span class="plus-icon">+</span>
-        Start Empty Workout
-      </button>
-
-      <!-- Routines section header -->
-      <div class="section-header">
-        <h2>Routines</h2>
-        <button class="icon-btn" aria-label="Tambah folder routine">📁+</button>
-      </div>
-
-      <!-- New Routine / Explore -->
-      <div class="routine-actions">
-        <button class="action-card">
-          <span class="action-icon">📋</span>
-          New Routine
-        </button>
-        <button class="action-card">
-          <span class="action-icon">🔍</span>
-          Explore
-        </button>
-      </div>
-
-      <!-- My Routines toggle -->
-      <button class="my-routines-toggle">
-        <span class="chevron">▾</span>
-        My Routines (10)
-      </button>
-
-      <!-- Routine list -->
-      <section class="routine-list">
-
-        <article class="routine-card">
-          <div class="routine-card-top">
-            <div>
-              <h3>Treadmill Zone 2</h3>
-              <p class="routine-subtitle">Walking</p>
-            </div>
-            <button class="more-btn" aria-label="Opsi lainnya">⋯</button>
-          </div>
-          <button class="start-routine-btn">Start Routine</button>
-        </article>
-
-        <article class="routine-card">
-          <div class="routine-card-top">
-            <div>
-              <h3>Lower Back</h3>
-              <p class="routine-subtitle">Superman</p>
-            </div>
-            <button class="more-btn" aria-label="Opsi lainnya">⋯</button>
-          </div>
-          <button class="start-routine-btn">Start Routine</button>
-        </article>
-
-        <article class="routine-card">
-          <div class="routine-card-top">
-            <div>
-              <h3>Calves</h3>
-              <p class="routine-subtitle">Calf Press (Machine)</p>
-            </div>
-            <button class="more-btn" aria-label="Opsi lainnya">⋯</button>
-          </div>
-          <button class="start-routine-btn">Start Routine</button>
-        </article>
-
-      </section>
-
-    </main>
-
-    <!-- Bottom navigation -->
-    <nav class="bottom-nav">
-      <button class="nav-item">
-        <span class="nav-icon">🏠</span>
-        <span class="nav-label">Home</span>
-      </button>
-      <button class="nav-item active">
-        <span class="nav-icon">🏋️</span>
-        <span class="nav-label">Workout</span>
-      </button>
-      <button class="nav-item">
-        <span class="nav-icon">👤</span>
-        <span class="nav-label">Profile</span>
-      </button>
-    </nav>
-
-  </div>
-
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hevier</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
